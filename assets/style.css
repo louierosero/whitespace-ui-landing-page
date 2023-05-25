@@ -1,0 +1,46 @@
+/* GENERAL LAYOUT */
+:root {
+  font-size: 16px; /* Setup for using the REM Value on Desktop Sizing. */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; */
+}
+
+html {
+  /*color-scheme: light dark;*/ /* Disable this if it is affecting your design. This is just used to automatically adopt the theme of the User Computer. */
+  scroll-behavior: smooth;
+}
+
+img,
+svg,
+video {
+  max-width: 100%;
+  display: block;
+}
+
+/* HOMEPAGE - LAYOUT */
+
+/* MEDIA QUERIES - 1200 pixels */
+@media (max-width: 75rem) {
+}
+
+/* MEDIA QUERIES - 992 pixels */
+@media (max-width: 62rem) {
+}
+
+/* MEDIA QUERIES - 768 pixels */
+@media (max-width: 48rem) {
+}
+
+/* MEDIA QUERIES - 576 pixels */
+@media (max-width: 36rem) {
+}
+
+/* MEDIA QUERIES - 414 pixels */
+@media (max-width: 25.875rem) {
+}
