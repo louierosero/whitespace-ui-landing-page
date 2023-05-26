@@ -29,6 +29,7 @@ video {
 
 .main-menu li {
   display: inline-block;
+  vertical-align: middle;
 }
 
 /* MEDIA QUERIES - 1200 pixels */
