@@ -138,6 +138,10 @@ h1 span::before {
 }
 
 /* OUR FEATURES - LAYOUT */
+.our-features {
+  padding: 100px 0;
+}
+
 .our-features h2,
 .our-features p.desc {
   text-align: center;
