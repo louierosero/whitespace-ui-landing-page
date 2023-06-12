@@ -291,6 +291,7 @@ h1 span::before {
 /* FAQ SECTION - LAYOUT */
 .faq {
   text-align: center;
+  margin-bottom: 80px;
 }
 
 .faq-title {
@@ -358,6 +359,46 @@ h1 span::before {
   font-weight: 400;
   font-size: 16px;
   color: #344051;
+}
+
+.contact-us {
+  max-width: 527px;
+  width: 50%;
+  margin: 0 auto;
+  background: #f0f6ff;
+  border-radius: 20px;
+  padding: 32px;
+  text-align: center;
+}
+
+.contact-us h4 {
+  margin: 0 0 20px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #002966;
+}
+
+.contact-us p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #002966;
+  margin-bottom: 35px;
+}
+
+.contact-us a {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #1a75ff;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.contact-us a img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
 }
 
 /* MEDIA QUERIES - 1200 pixels */
