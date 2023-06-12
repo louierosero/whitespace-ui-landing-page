@@ -213,7 +213,7 @@ h1 span::before {
 /* GET STARTED SECTION - LAYOUT */
 .get-started {
   text-align: center;
-  margin-bottom: 160px;
+  margin-bottom: 220px;
 }
 
 .get-started h2.title2 {
@@ -286,6 +286,78 @@ h1 span::before {
   margin-bottom: -4px;
   margin-right: 5px;
   margin-left: -10px;
+}
+
+/* FAQ SECTION - LAYOUT */
+.faq {
+  text-align: center;
+}
+
+.faq-title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  color: #141c24;
+}
+
+.faq-desc {
+  max-width: 650px;
+  width: 80%;
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #344051;
+}
+
+.accordion {
+  text-align: left;
+  max-width: 800px;
+  width: 90%;
+  margin: 60px auto 40px;
+}
+
+.accordion-item {
+  border: 1px solid #ced2da;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  overflow: hidden;
+}
+
+.accordion-title {
+  padding: 26px 30px;
+  cursor: pointer;
+}
+
+.accordion-title h3 {
+  font-weight: 500;
+  font-size: 18px;
+  color: #141c24;
+  margin: 10px 0;
+}
+
+.accordion h3 span {
+  float: right;
+  height: 20px;
+  width: 20px;
+  background: url(./img/open-icon.png);
+  background-position: center;
+}
+
+.accordion .accordion-title.active h3 span {
+  background: url(./img/close-icon.png);
+}
+
+.accordion-content {
+  display: none;
+  padding: 0 30px 30px;
+  background-color: #ffffff;
+}
+
+.accordion-content p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #344051;
 }
 
 /* MEDIA QUERIES - 1200 pixels */
