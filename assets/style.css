@@ -531,6 +531,86 @@ h1 span::before {
   color: #fff;
 }
 
+/* NEWSLETTER SECTION - LAYOUT */
+.newsletter {
+  padding: 64px;
+  border-radius: 32px;
+  background-color: #f0f6ff;
+  background-image: url(img/newsletter-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  overflow: hidden;
+  margin-bottom: 150px;
+}
+
+.news-header {
+  font-weight: 600;
+  font-size: 36px;
+  max-width: 692px;
+  color: #002966;
+  margin-bottom: 12px;
+}
+
+.news-desc {
+  font-weight: 400;
+  font-size: 18px;
+  max-width: 513px;
+  color: #002966;
+  margin-bottom: 30px;
+}
+
+input[type="email"] {
+  display: inline-block;
+  padding-left: 12px !important;
+  padding-right: 8px !important;
+  max-width: 357px;
+  height: 44px !important;
+  margin-bottom: 0 !important;
+  background: #ffffff !important;
+  border-radius: 8px !important;
+  border: none !important;
+  font-weight: 400;
+  /* font-size: 16px; */
+  color: #637083;
+}
+
+.subscribe {
+  height: 44px;
+  vertical-align: top;
+  margin-left: 10px;
+  padding: 10px 20px;
+  background: #1a75ff;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+/* OUR CLIENTS SECTION - LAYOUT */
+.our-clients {
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.client-title {
+  font-weight: 600;
+  font-size: 36px;
+  color: #141c24;
+  margin-bottom: 60px;
+}
+
+.our-clients .row {
+  padding-bottom: 50px;
+}
+
+.our-clients img {
+  display: inline-block;
+}
+
 /* MEDIA QUERIES - 1200 pixels */
 @media (max-width: 75rem) {
 }
